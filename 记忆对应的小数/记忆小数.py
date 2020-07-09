@@ -63,7 +63,7 @@ def num_hint():
 						answer_wrong = False
 			else:
 				print (f"{number[i]} ： {nhdic[number[i]]}")
-				wrong.append(i)
+				wrong.append(number[i])
 				print(wrong)
 							
 			

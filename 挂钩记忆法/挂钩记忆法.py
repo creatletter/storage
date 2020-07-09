@@ -16,15 +16,12 @@ for i in range (len(number)):
 
 print ("输入q退出")
 
-
-	
-	
 							
 def num_hint():
 	wrong = []#wrong要放在外面，不然每次都会重置
 	num = []
 	num1 = [] #已答对的就不再答
-	count = [n for n in range(0,len(number),1)]
+	count = [n for n in range(0, len(number), 1)]
 	while count:
 		i = random.randrange (0,len(number))#randint右边也是开的，在后面就会报错；但randrange右边是闭的，就不会报错
 		num.append(i)
